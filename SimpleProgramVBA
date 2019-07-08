@@ -1,0 +1,48 @@
+Sub hello()
+
+
+'Dim a As Integer
+
+MsgBox ("Hello")
+ a = MsgBox("hello", vbYesNo)
+
+'MsgBox (a)
+End Sub
+
+Sub add()
+
+Dim a As Integer
+Dim b As Integer
+Dim c As Integer
+
+Dim s As String
+
+
+a = 10
+b = 20
+c = a + b
+s = "Hello World"
+
+MsgBox (s & " add value of " & a & " and " & b & "=" & c)
+
+End Sub
+
+
+
+Sub addUserInput()
+
+Dim a As Integer
+Dim b As Integer
+Dim c As Integer
+
+Dim s As String
+
+
+a = InputBox("Please Enter The First Number")
+b = InputBox("Please Enter The Second Number")
+c = a + b
+s = "Hello World"
+
+MsgBox (s & " add value of " & a & " and " & b & "=" & c)
+
+End Sub
