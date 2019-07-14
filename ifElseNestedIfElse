@@ -1,0 +1,51 @@
+Sub conditionClass()
+
+Dim a As Integer
+Dim b As Integer
+'a = 20
+'b = 50
+a = InputBox("please enter the first value")
+
+b = InputBox("please enter the Second value")
+If a > b Then
+  MsgBox ("A is GT")
+  Else
+  MsgBox ("B is GT")
+  
+End If
+
+
+End Sub
+
+
+Sub conditionNestedClass()
+
+Dim a As Integer
+Dim b As Integer
+
+Dim c As Integer
+a = 20
+b = 50
+c = 80
+
+If a > b Then
+    If a > c Then
+        MsgBox ("A is GT")
+    Else
+    MsgBox ("C is GT")
+  
+    End If
+Else
+  If b > c Then
+        MsgBox ("B is GT")
+    Else
+    MsgBox ("C is GT")
+  
+    End If
+
+
+End If
+
+
+
+End Sub
