@@ -34,3 +34,65 @@ gs = bs * 0.4
 End Function
 
 	
+	
+	
+
+Loop : repetaion  of task 
+	1. for
+  for i = startPoint to EndPoint
+		next
+	2. while 
+	3. for each
+	
+	Sub hello():
+MsgBox ("hello")
+End Sub
+
+
+Function addTwoNo()
+
+addTwoNo = 10 + 20
+
+End Function
+
+
+Function userAdd(a As Integer, b As Integer)
+
+ userAdd = a + b
+ 
+End Function
+
+Function gs(bs As Integer)
+
+
+gs = bs * 0.4
+
+
+End Function
+
+
+Function loopClass()
+Dim i As Integer
+
+For i = 1 To 10
+    'Cells(i, 1).Value = 100
+    Cells(i, 1).Value = "hello"
+Next i
+
+End Function
+
+
+
+Function printTable()
+Dim i As Integer
+Dim x As Integer
+
+For i = 1 To 10
+ 
+ 'MsgBox (i * a)
+x = i * 2
+Cells(i, 2).Value = i & "*" & 2 & "=" & x
+
+Next i
+
+End Function
