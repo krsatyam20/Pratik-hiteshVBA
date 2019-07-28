@@ -1,0 +1,36 @@
+sub  no any return value 
+	use for small program 
+
+
+function we can return any value 
+	complex progrm 
+	
+	
+	
+Sub hello():
+MsgBox ("hello")
+End Sub
+
+
+Function addTwoNo()
+
+addTwoNo = 10 + 20
+
+End Function
+
+
+Function userAdd(a As Integer, b As Integer)
+
+ userAdd = a + b
+ 
+End Function
+
+Function gs(bs As Integer)
+
+
+gs = bs * 0.4
+
+
+End Function
+
+	
