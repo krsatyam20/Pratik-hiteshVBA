@@ -1,0 +1,71 @@
+'Method 1 : Using Dim
+Dim arr1()	'Without Size
+
+'Method 2 : Mentioning the Size
+Dim arr2(5)  'Declared with size of 5
+
+'Method 3 : using 'Array' Parameter
+Dim arr3
+arr3 = Array("apple","Orange","Grapes")
+
+
+Sub arrayClass()
+
+   'Dim a() As Variant
+   Dim a(5)
+   Dim x As Integer
+   
+   For i = 1 To 5
+   a(i) = InputBox("pls enter")
+   Next
+   
+    For i = 1 To 5
+   'MsgBox (a(i))
+   Cells(i, 1) = a(i)
+   
+   Next
+   
+   x = Int(a(1)) + Int(a(3))
+   Cells(10, 1) = x
+   
+End Sub
+
+
+
+
+Sub addArrayClass()
+
+   'Dim a() As Variant
+   Dim a(10)
+   Dim x As Integer
+   'Value input in array
+   For i = 1 To 10
+   a(i) = i
+   x = x + Int(a(i))
+   Next
+   
+   'Array value show in excel sheet
+   For i = 1 To 10
+   Cells(i, 1) = a(i)
+     
+   Next
+   
+   
+   'Add array value and store in excel sheet on column a10
+   Cells(11, 1) = x
+   
+End Sub
+
+
+
+Sub fixedArray()
+
+Dim x
+x = Array("apple", "mango", "orange", "12", "13", "14")
+
+For i = 0 To UBound(x)
+  MsgBox (x(i))
+  Next
+  
+End Sub
+
